@@ -1373,9 +1373,11 @@ experience Style
 }
 
 .experience .icon img {
-  margin-bottom: 20px;
-  max-width: 60px;
-  min-width: 60px;
+  margin-bottom: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  max-width: 70px;
+  min-width: 70px;
 }
 
 .experience .naccs .menu {
@@ -1384,8 +1386,7 @@ experience Style
 }
 
 .experience .naccs .menu div {
-  color: #2a2a2a;
-  margin: 5px;
+  margin: 3px 5px;
   width: 20%;
   font-size: 20px;
   font-weight: 700;
@@ -1400,8 +1401,8 @@ experience Style
 .experience .naccs .menu div .thumb {
   display: inline-block;
   width: 100%;
-  padding: 30px 0px;
-  background-color: #fff;
+  padding: 20px 0px;
+  left: -2.5px;
 }
 
 .thumb:after {
@@ -1411,8 +1412,16 @@ experience Style
   background-color: rgb(42, 255, 130);
 }
 
+/*เพิ่ม hover*/
+.experience .naccs .menu div .thumb:hover {
+  border: 3px solid #007981;
+}
+
 .experience .naccs .menu div.active {
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  color: #ffffff !important;
+  border: 5px solid #0f878f;
+  background-color: #007981;
+  padding-right: 5px;
 }
 
 .experience ul.nacc {
@@ -2113,6 +2122,14 @@ responsive
     font-size: 16px;
     font-weight: 500;
   }
+  .experience .naccs .menu div .thumb:hover {
+    border: none;
+  }
+  .experience .naccs .menu div.active {
+    border: 3px solid #006269;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
   .service-item {
     text-align: center;
   }
@@ -2168,10 +2185,14 @@ responsive
     display: inline-block;
   }
   .experience .naccs .menu div .thumb {
-    padding: 5px;
+    padding: 3px;
+    left: -2.5px;
+    
   }
   .experience .icon img {
     margin: 0px;
+    max-width: 50px;
+    min-width: 50px;
   }
   .experience ul.nacc li.active {
     padding: 45px;
