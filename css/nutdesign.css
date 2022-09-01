@@ -1006,13 +1006,14 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/slider-right-dec.jpg);
+  background-image: url(../images/slider-right-dec.png);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
   top: 60px;
-  width: 964px;
+  width: 1087px;
   height: 797px;
+  z-index: 1;
 }
 
 .main-banner .left-content {
@@ -1892,7 +1893,6 @@ contact
   margin-bottom: 80px;
 }
 
-
 form#contact:before {
   background-image: url(../images/contact-top-right.png);
   position: absolute;
@@ -1937,6 +1937,9 @@ form#contact #map iframe {
   border-bottom-left-radius: 23px;
   margin-bottom: -7px;
   position: relative;
+  width: 100%;
+  height: 636px;
+  border: none;
   z-index: 2;
 }
 
@@ -2043,8 +2046,9 @@ Footer Style
 */
 
 footer {
-  background-image: url(../images/footer-bg.jpg);
-  background-position: center center;
+  /*background-image: url(../images/footer-bg.jpg);
+  background-position: center center;*/
+  background-color: #0f878f;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 130px;
@@ -2077,6 +2081,9 @@ responsive
   }
   .header-area .main-nav .nav li:last-child {
     padding-left: 20px;
+  }
+  .brNone{
+    display: none !important;
   }
 }
 
@@ -2263,8 +2270,18 @@ responsive
   .fill-form {
     padding: 80px 30px 80px 30px;
   }
+  form#contact #map iframe {
+    border-radius: 20px;
+    height: 200px;
+  }
   form#contact {
     padding: 30px;
+  }
+  footer {
+    margin-top: 30px;
+  }
+  .brNone{
+    display: inline;
   }
 }
 
@@ -2303,6 +2320,5 @@ responsive
   height: 25px;
   top: -3px;
   left: -49px;
-
 }
 
