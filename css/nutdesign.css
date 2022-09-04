@@ -167,7 +167,7 @@ body {
 
 .section-heading h6 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   color: #726ae3;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -176,7 +176,7 @@ body {
 .section-heading h4 {
   color: #2a2a2a;
   font-size: 35px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: capitalize;
   margin-bottom: 25px;
 }
@@ -311,7 +311,7 @@ intro
   text-align: center;
   font-size: 20px;
   margin-top: 30px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -499,8 +499,8 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 18px;
   color: #726ae3;
   /*text-transform: capitalize;*/
   -webkit-transition: all 0.3s ease 0s;
@@ -510,7 +510,7 @@ header
   height: 40px;
   line-height: 40px;
   border: transparent;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 
 .header-area .main-nav .nav li:hover a,
@@ -822,7 +822,7 @@ header
   }
   .header-area .main-nav .nav li a {
     height: 50px !important;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
     line-height: 50px !important;
     padding: 0px !important;
     margin: 0px !important;
@@ -1023,7 +1023,7 @@ Banner Style
 .main-banner .left-content h6 {
   text-transform: capitalize;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   color: #007981;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -1032,7 +1032,7 @@ Banner Style
 .main-banner .left-content h2 {
   z-index: 2;
   position: relative;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 50px;
   color: #2a2a2a;
   margin-bottom: 20px;
@@ -1076,10 +1076,12 @@ About Style
 
 .label-title{
   line-height: 30px;
+  font-weight: 600;
   vertical-align: top;
 }
 
 .label-info{
+  line-height: 30px;
   font-weight: normal;
 }
 
@@ -1181,7 +1183,7 @@ About Style
   align-items: center;
   justify-content: center;
   height: 100%;
-  font-weight: 700;
+  font-weight: 600;
 }
 .progress .progress-value div {
   margin-top: 10px;
@@ -1399,7 +1401,7 @@ experience Style
   margin: 3px 5px;
   width: 20%;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   display: inline-block;
   text-align: center;
   cursor: pointer;
@@ -1476,7 +1478,7 @@ experience Style
 .experience .nacc .thumb h4 {
   color: #2a2a2a;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 35px;
   margin-bottom: 25px;
 }
@@ -1498,7 +1500,7 @@ experience Style
 
 .experience .left-text h4 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   color: #007981 !important;
 }
 
@@ -1515,79 +1517,38 @@ experience Style
   font-weight: 400;
 }
 
-
-
-/* 
----------------------------------------------
-Free Quote
---------------------------------------------- 
-*/
-
-.free-quote {
-  background-image: url(../images/quote-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding: 120px 0px;
-  text-align: center;
+.timeline {
+  margin-left: 10px;
+  padding-left: 35px;
+  border-left: 3px solid #726ae3;
+  color: #666;
+}
+.timeline-item{
   position: relative;
-  z-index: 2;
-  margin-top: 130px;
+  top: -10px;
 }
-
-.free-quote .section-heading {
-  margin-bottom: 60px;
+.timeline-info{
+  color: #726ae3;
+  font-size: 14px;
+  list-style: 35px;
+  margin-top: 35px;
+  margin-bottom: 10px;
 }
-
-.free-quote .section-heading h6,
-.free-quote .section-heading h4 {
-  color: #fff;
+.timeline-title{
+  color: #333;
 }
-
-.free-quote .section-heading .line-dec {
-  margin: 0 auto;
-  background-color: #fff;
-}
-
-.free-quote form {
-  background-color: #fff;
-  display: inline-block;
-  width: 100%;
-  min-height: 80px;
-  border-radius: 40px;
-  position: relative;
-  z-index: 1;
-}
-
-.free-quote form input {
-  width: 100%;
-  margin-top: 20px;
-  margin-left: 30px;
-  color: #666666;
-  font-weight: 400;
+.timeline-content{
   font-size: 16px;
-  height: 40px;
-  background-color: transparent;
-  border-bottom: 1px solid #eee;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  position: relative;
-  z-index: 2;
-  outline: none;
 }
-
-.free-quote form button {
-  width: 100%;
-  height: 80px;
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 40px;
-  outline: none;
-  border: none;
-  margin-left: 30px;
-  background-color: #726ae3;
-  font-size: 16px;
-  color: #fff;
+.timeline-marker{
+  position: absolute;
+  background: #726ae3;
+  border: 5px solid #fff;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  top: -3px;
+  left: -49px;
 }
 
 
@@ -1675,7 +1636,7 @@ picture
 
 .picture-item .down-content h4 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   color: #2a2a2a;
   margin-bottom: 8px;
   transition: all .3s;
@@ -1722,13 +1683,13 @@ picture
 
 /* 
 ---------------------------------------------
-Blog
+portfolio
 --------------------------------------------- 
 */
 
-.blog:before {
+.portfolio:before {
   content: '';
-  background-image: url(../images/blog-left-dec.jpg);
+  background-image: url(../images/portfolio-left-dec.jpg);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1738,17 +1699,17 @@ Blog
   z-index: 0;
 }
 
-.blog {
+.portfolio {
   position: relative;
   padding-top: 130px;
 }
 
-.blog .section-heading {
+.portfolio .section-heading {
   text-align: center;
   margin-bottom: 50px;
 }
 
-.blog .section-heading .line-dec {
+.portfolio .section-heading .line-dec {
   margin: 0 auto;
 }
 
@@ -1757,24 +1718,24 @@ Blog
   z-index: 80;
 }
 
-.blog-post {
+.portfolio-post {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 25px;
 }
 
-.blog-post .thumb img {
+.portfolio-post .thumb img {
   border-top-right-radius: 23px;
   border-top-left-radius: 23px;
 }
 
-.blog-post .down-content {
+.portfolio-post .down-content {
   border-bottom-right-radius: 23px;
   border-bottom-left-radius: 23px;
   background-color: #fff;
   padding: 30px;
 }
 
-.blog-post .down-content span.category {
+.portfolio-post .down-content span.category {
   font-size: 16px;
   color: #fff;
   padding: 8px 12px;
@@ -1783,7 +1744,7 @@ Blog
   display: inline-block;
 }
 
-.blog-post .down-content span.date {
+.portfolio-post .down-content span.date {
   font-size: 16px;
   color: #666666;
   text-align: right;
@@ -1791,36 +1752,36 @@ Blog
   margin-top: 4px;
 }
 
-.blog-post .down-content h4 {
+.portfolio-post .down-content h4 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   color: #2a2a2a;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 30px;
 }
 
-.blog-post .down-content p {
+.portfolio-post .down-content p {
   margin-bottom: 30px;
 }
 
-.blog-post .down-content span.author {
+.portfolio-post .down-content span.author {
   font-size: 16px;
   color: #2a2a2a;
 }
 
-.blog-post .down-content span.author img {
+.portfolio-post .down-content span.author img {
   max-width: 56px;
   border-radius: 50%;
   margin-right: 15px;
 }
 
-.blog-post .down-content .border-first-button {
+.portfolio-post .down-content .border-first-button {
   display: inline-block;
   float: right;
 }
 
-.blog-posts {
+.portfolio-posts {
   margin-left: 30px;
 }
 
@@ -1866,11 +1827,45 @@ Blog
 
 .post-item .right-content h4 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   color: #2a2a2a;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 30px;
+}
+
+.portfolio .flourish {
+  position: relative;
+  z-index: 2;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.portfolio .flourish .flourish-post {
+  background-image: url(../images/portfolio-flourish1.jpg);
+  background-attachment: fixed;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 270px;
+}
+
+.portfolio .flourish .tit2 {
+	font-size: 35px;
+	line-height: 2;
+	color: #ffffff;
+}
+
+.portfolio .flourish .tit4 {
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 1.5;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	word-spacing: 6px;
 }
 
 
@@ -1894,7 +1889,7 @@ contact
 }
 
 form#contact:before {
-  background-image: url(../images/contact-top-right.png);
+  /*background-image: url(../images/contact-top-right.png);*/
   position: absolute;
   right: 0;
   top: 0;
@@ -1913,7 +1908,7 @@ form#contact:before {
 }
 
 form#contact:after {
-  background-image: url(../images/contact-bottom-right.png);
+  /*background-image: url(../images/contact-bottom-right.png);*/
   position: absolute;
   right: 0;
   bottom: 0;
@@ -2158,7 +2153,7 @@ responsive
     margin-left: 30px;
     margin-bottom: 45px;
   }
-  .blog-posts {
+  .portfolio-posts {
     margin-left: 0px;
     margin-top: 30px;
   }
@@ -2188,6 +2183,9 @@ responsive
     margin-left: 5px;
     
   }
+  .main-banner{
+    padding-bottom: 0px;
+  }
   .main-banner .info-stat {
     margin-bottom: 15px;
   }
@@ -2206,7 +2204,6 @@ responsive
   .experience .naccs .menu div .thumb {
     padding: 3px;
     left: -2.5px;
-    
   }
   .experience .icon img {
     margin: 0px;
@@ -2214,13 +2211,23 @@ responsive
     min-width: 50px;
   }
   .experience ul.nacc li.active {
-    padding: 45px;
+    padding: 25px;
+  }
+  .experience .section-heading{
+    margin-bottom: 50px;
   }
   .experience .naccs .menu div  {
     font-size: 0px;
   }
   .experience ul.nacc li .right-image img {
     float: none;
+  }
+  .timeline {
+    margin-left: 0px;
+    padding-left: 20px;
+  }
+  .timeline-marker{
+    left: -35px;
   }
   .our-picture .section-heading,
   .about-us .section-heading,
@@ -2236,18 +2243,23 @@ responsive
     margin-left: 15px;
     margin-right: 15px;
   }
-  .free-quote form input {
-    margin-left: 0px;
-    padding: 0px 30px;
-  }
-  .free-quote form button {
-    margin-left: 0px;
-    border-bottom-left-radius: 40px;
-    border-top-right-radius: 0px;
-  }
-  .blog-posts {
+  .portfolio-posts {
     margin-left: 0px;
     margin-top: 30px;
+  }
+  .portfolio .flourish .flourish-post {
+    background-image: url(../images/portfolio-flourish2.jpg);
+    padding-top: 220px;
+    padding-bottom: 250px;
+  }
+  .portfolio .flourish .tit2 {
+    font-size: 18px;
+    line-height: 55px;
+  }
+  .portfolio .flourish .tit4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;;
   }
   .post-item {
     margin-bottom: 30px;
@@ -2259,13 +2271,16 @@ responsive
     display: none;
   }
   #about{
-    padding-top: 80px;
+    padding-top: 120px;
   }
   .about-left-image img {
     display: none;
   }
   .about-us .about-item {
     margin-top: 15px;
+  }
+  .section-heading h4 em{
+    display: block;
   }
   .fill-form {
     padding: 80px 30px 80px 30px;
@@ -2288,37 +2303,5 @@ responsive
 
 
 
-.timeline {
-  margin-left: 10px;
-  padding-left: 35px;
-  border-left: 3px solid #726ae3;
-  color: #666;
-}
-.timeline-item{
-  position: relative;
-  top: -10px;
-}
-.timeline-info{
-  color: #726ae3;
-  font-size: 14px;
-  list-style: 35px;
-  margin-top: 35px;
-  margin-bottom: 10px;
-}
-.timeline-title{
-  color: #333;
-}
-.timeline-content{
-  font-size: 16px;
-}
-.timeline-marker{
-  position: absolute;
-  background: #726ae3;
-  border: 5px solid #fff;
-  border-radius: 100%;
-  width: 25px;
-  height: 25px;
-  top: -3px;
-  left: -49px;
-}
+
 
