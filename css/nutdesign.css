@@ -2158,6 +2158,23 @@ responsive
     margin-top: 30px;
   }
   .portfolio-posts {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .portfolio .flourish .flourish-post {
+    background-image: url(../images/portfolio-flourish2.jpg);
+    padding-top: 220px;
+    padding-bottom: 250px;
+  }
+  .portfolio .flourish .tit2 {
+    font-size: 18px;
+    line-height: 55px;
+  }
+  .portfolio .flourish .tit4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;;
+  }
   .post-item {
     margin-bottom: 70px;
   }
@@ -2244,21 +2261,6 @@ responsive
     margin-left: 15px;
     margin-right: 15px;
   }
-  }
-  .portfolio .flourish .flourish-post {
-    background-image: url(../images/portfolio-flourish2.jpg);
-    padding-top: 220px;
-    padding-bottom: 250px;
-  }
-  .portfolio .flourish .tit2 {
-    font-size: 18px;
-    line-height: 55px;
-  }
-  .portfolio .flourish .tit4 {
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 35px;;
-  }
   .post-item {
     margin-bottom: 30px;
   }
@@ -2277,7 +2279,7 @@ responsive
   .about-us .about-item {
     margin-top: 15px;
   }
-  .section-heading h4 em{
+  .section-heading .block h4 em{
     display: block;
   }
   .fill-form {
