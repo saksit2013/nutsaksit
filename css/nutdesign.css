@@ -2157,6 +2157,7 @@ responsive
     margin-left: 0px;
     margin-top: 30px;
   }
+  .portfolio-posts {
   .post-item {
     margin-bottom: 70px;
   }
@@ -2243,9 +2244,6 @@ responsive
     margin-left: 15px;
     margin-right: 15px;
   }
-  .portfolio-posts {
-    margin-left: 0px;
-    margin-top: 30px;
   }
   .portfolio .flourish .flourish-post {
     background-image: url(../images/portfolio-flourish2.jpg);
