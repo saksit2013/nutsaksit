@@ -1733,6 +1733,7 @@ portfolio
   border-bottom-left-radius: 23px;
   background-color: #fff;
   padding: 30px;
+  padding-bottom: 90px;
 }
 
 .portfolio-post .down-content span.category {
@@ -2278,9 +2279,6 @@ responsive
   }
   .about-us .about-item {
     margin-top: 15px;
-  }
-  .section-heading .block h4 em{
-    display: block;
   }
   .fill-form {
     padding: 80px 30px 80px 30px;
