@@ -1463,7 +1463,7 @@ experience Style
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   background-color: #fff;
   border-radius: 15px;
-  padding: 80px 120px 50px 120px;
+  padding: 60px 80px 40px 80px;
 }
 
 .experience ul.nacc li {
@@ -1471,7 +1471,7 @@ experience Style
 }
 
 .experience ul.nacc li .right-image img {
-  max-width: 420px;
+  max-width: 100%;
   float: right;
 }
 
@@ -2142,6 +2142,11 @@ responsive
     padding-top: 1px;
     padding-bottom: 1px;
   }
+  .experience ul.nacc li .right-image img {
+    float: none;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
   .service-item {
     text-align: center;
   }
@@ -2237,9 +2242,6 @@ responsive
   }
   .experience .naccs .menu div  {
     font-size: 0px;
-  }
-  .experience ul.nacc li .right-image img {
-    float: none;
   }
   .timeline {
     margin-left: 0px;
