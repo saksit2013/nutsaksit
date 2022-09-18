@@ -1523,10 +1523,12 @@ experience Style
   border-left: 3px solid #726ae3;
   color: #666;
 }
+
 .timeline-item{
   position: relative;
   top: -10px;
 }
+
 .timeline-info{
   color: #726ae3;
   font-size: 14px;
@@ -1534,12 +1536,15 @@ experience Style
   margin-top: 35px;
   margin-bottom: 10px;
 }
+
 .timeline-title{
   color: #333;
 }
+
 .timeline-content{
   font-size: 16px;
 }
+
 .timeline-marker{
   position: absolute;
   background: #726ae3;
@@ -1551,6 +1556,18 @@ experience Style
   left: -49px;
 }
 
+.skills{
+  width: 100%;
+  margin-left: 10px;
+  padding-left: 35px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.skills .level{
+  width: 100%;
+  text-align: right;
+}
 
 /* 
 ---------------------------------------------
