@@ -1576,7 +1576,7 @@ picture
 */
 
 .our-picture {
-  padding-top: 130px;
+  padding-top: 100px;
   overflow: hidden;
   position: relative;
 }
@@ -1848,35 +1848,34 @@ portfolio
   font-weight: 600;
   color: #2a2a2a;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   line-height: 30px;
 }
 
-.portfolio .flourish {
+.flourish {
   position: relative;
   z-index: 2;
-  margin-top: 40px;
-  margin-bottom: 80px;
+  margin-top: 60px;
+  margin-bottom: -40px;
 }
 
-.portfolio .flourish .flourish-post {
+.flourish .flourish-post {
   background-image: url(../images/portfolio-flourish1.jpg);
   background-attachment: fixed;
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding-top: 160px;
-  padding-bottom: 270px;
+  padding-top: 80px;
+  padding-bottom: 420px;
 }
-
-.portfolio .flourish .tit2 {
+.flourish .tit2 {
 	font-size: 35px;
 	line-height: 2;
 	color: #ffffff;
 }
 
-.portfolio .flourish .tit4 {
+.flourish .tit4 {
 	font-weight: 600;
 	font-size: 50px;
 	line-height: 1.5;
@@ -2176,6 +2175,10 @@ responsive
     margin-left: 30px;
     margin-bottom: 45px;
   }
+  .portfolio:before {
+    top: -70px;
+  }
+  
   .portfolio-posts {
     margin-left: 0px;
     margin-top: 30px;
@@ -2184,16 +2187,19 @@ responsive
     margin-left: 0px;
     margin-top: 30px;
   }
-  .portfolio .flourish .flourish-post {
+  .flourish {
+    margin-top: 45px;
+  }
+  .flourish .flourish-post {
     background-image: url(../images/portfolio-flourish2.jpg);
-    padding-top: 220px;
+    padding-top: 380px;
     padding-bottom: 250px;
   }
-  .portfolio .flourish .tit2 {
+  .flourish .tit2 {
     font-size: 18px;
     line-height: 55px;
   }
-  .portfolio .flourish .tit4 {
+  .flourish .tit4 {
     font-weight: 600;
     font-size: 30px;
     line-height: 35px;;
@@ -2267,6 +2273,9 @@ responsive
   .timeline-marker{
     left: -35px;
   }
+  .flourish {
+    margin-top: 35px;
+  }
   .our-picture .section-heading,
   .about-us .section-heading,
   .about-us .about-item,
@@ -2282,13 +2291,19 @@ responsive
     margin-right: 15px;
   }
   .post-item {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   .post-item .thumb img {
     max-width: 140px;
   }
-  .post-item .right-content p {
-    display: none;
+  .post-item .right-content .category {
+    display: none !important;
+  }
+  .post-item .right-content h4 {
+    margin-top: -15px;
+  }
+  .post-item .right-content P {
+    margin-top: -5px;
   }
   #about{
     padding-top: 120px;
