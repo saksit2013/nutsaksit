@@ -2207,6 +2207,9 @@ responsive
   .post-item {
     margin-bottom: 70px;
   }
+  .our-picture {
+    padding-top: 40px;
+  }
   .our-picture .owl-nav {
     display: none !important;
   }
