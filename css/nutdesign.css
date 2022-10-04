@@ -315,6 +315,9 @@ intro
   text-transform: uppercase;
 }
 
+.br-active{
+  display: none;
+}
 
 /* 
 ---------------------------------------------
@@ -1577,6 +1580,7 @@ picture
 
 .our-picture {
   padding-top: 100px;
+  margin-bottom: -50px;
   overflow: hidden;
   position: relative;
 }
@@ -1606,7 +1610,7 @@ picture
 }
 
 .our-picture .section-heading {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .our-picture .container-fluid {
@@ -1750,15 +1754,15 @@ portfolio
   border-bottom-left-radius: 23px;
   background-color: #fff;
   padding: 30px;
-  padding-bottom: 90px;
+  padding-bottom: 10px;
 }
 
 .portfolio-post .down-content span.category {
   font-size: 16px;
-  color: #fff;
-  padding: 8px 12px;
-  background-color: #726ae3;
-  border-radius: 18px;
+  color: #726ae3;
+  padding: 8px 13px;
+  border: 1px solid #726ae3;
+  border-radius: 50px;
   display: inline-block;
 }
 
@@ -1828,10 +1832,10 @@ portfolio
 
 .post-item .right-content span.category {
   font-size: 16px;
-  color: #fff;
+  color: #726ae3;
   padding: 8px 13px;
-  background-color: #726ae3;
-  border-radius: 18px;
+  border: 1px solid #726ae3;
+  border-radius: 50px;
   display: inline-block;
 }
 
@@ -2138,6 +2142,10 @@ responsive
   .skill-item {
     margin-bottom: 30px;
   }
+  .section-heading h4 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
   .about-left-image img {
     margin-right: 0px;
     margin-bottom: 45px;;
@@ -2145,6 +2153,9 @@ responsive
   .about .container {
     padding-left: 30px;
     padding-right: 30px;
+  }
+  .experience .section-heading{
+    margin-bottom: 50px;
   }
   .experience .naccs .menu div {
     font-size: 16px;
@@ -2178,7 +2189,6 @@ responsive
   .portfolio:before {
     top: -70px;
   }
-  
   .portfolio-posts {
     margin-left: 0px;
     margin-top: 30px;
@@ -2186,6 +2196,9 @@ responsive
   .portfolio-posts {
     margin-left: 0px;
     margin-top: 30px;
+  }
+  .contact-us .section-heading {
+    margin-bottom: 50px;
   }
   .flourish {
     margin-top: 45px;
@@ -2209,6 +2222,7 @@ responsive
   }
   .our-picture {
     padding-top: 40px;
+    margin-bottom: -100px;
   }
   .our-picture .owl-nav {
     display: none !important;
@@ -2263,9 +2277,6 @@ responsive
   .experience ul.nacc li.active {
     padding: 25px;
   }
-  .experience .section-heading{
-    margin-bottom: 50px;
-  }
   .experience .naccs .menu div  {
     font-size: 0px;
   }
@@ -2299,13 +2310,22 @@ responsive
   .post-item .thumb img {
     max-width: 140px;
   }
+  .down-content .category {
+    display: none !important;
+  }
+  .down-conten h4 {
+    margin-top: -15px;
+  }
+  .down-conten p{
+    margin-top: -5px;
+  }
   .post-item .right-content .category {
     display: none !important;
   }
   .post-item .right-content h4 {
     margin-top: -15px;
   }
-  .post-item .right-content P {
+  .post-item .right-content p{
     margin-top: -5px;
   }
   #about{
@@ -2331,6 +2351,9 @@ responsive
     margin-top: 30px;
   }
   .brNone{
+    display: inline;
+  }
+  .br-active{
     display: inline;
   }
 }
