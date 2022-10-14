@@ -342,13 +342,13 @@ header
 }
 
 .pre-header ul.info li a {
-  color: #e2e2e2;
+  color: #ffffff;
   font-size: 15px;
   transition: all .3s;
 }
 
 .pre-header ul.info li a:hover {
-  color: #e2e2e2;
+  color: #ffffff;
 }
 
 .pre-header ul.info li a i {
@@ -365,7 +365,7 @@ header
 }
 
 .pre-header ul.social-media li a {
-  background-color: #e2e2e2;
+  background-color: #ffffff;
   color: #007981;
   display: inline-block;
   width: 30px;
@@ -379,7 +379,7 @@ header
 
 .pre-header ul.social-media li a:hover {
   background-color: #726ae3;
-  color: #e2e2e2;
+  color: #ffffff;
 }
 
 .background-header {
@@ -1512,12 +1512,18 @@ experience Style
 }
 
 .nacc .ticks-list span {
+  position: relative;
   display: inline-block;
   opacity: 1;
   margin-right: 45px;
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 400;
+}
+
+.nacc .ticks-list span i {
+  color: #726ae3;
+  font-weight: bold;
 }
 
 .timeline {
