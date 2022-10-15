@@ -286,7 +286,7 @@
                               </div>
                             </div>
                             <div class="col-lg-6 align-self-center">
-                              <div class="right-image">
+                              <div class="right-image padding-image">
                                 <img src="images/experience-education.png" alt="">
                               </div>
                             </div>
@@ -330,7 +330,7 @@
                               </div>
                             </div>
                             <div class="col-lg-6 align-self-center">
-                              <div class="right-image">
+                              <div class="right-image padding-image">
                                 <img src="images/experience-work.png" alt="">
                               </div>
                             </div>
@@ -347,48 +347,45 @@
                                 <h4>ทักษะและความสามารถพิเศษ (Skills)</h4>
                                 <div class="skills">
                                   <h5>HTML</h5>
-                                  <div class="level">
-                                    <p>100% &nbsp; ระดับดีมาก</p>
+                                  <div class="level" style="width: 95%;">
+                                    <p>95%</p>
                                   </div>
                                 </div>
                                 <div class="skills">
                                   <h5>CSS</h5>
-                                  <div class="level">
-                                    <p>100% &nbsp; ระดับดีมาก</p>
+                                  <div class="level" style="width: 90%;">
+                                    <p>90%</p>
                                   </div>
                                 </div>
                                 <div class="skills">
                                   <h5>Bootstrap</h5>
-                                  <div class="level">
-                                    <p>100% &nbsp; ระดับดีมาก</p>
+                                  <div class="level" style="width: 90%;">
+                                    <p>90%</p>
                                   </div>
                                 </div>
                                 <div class="skills">
                                   <h5>JavaScript</h5>
-                                  <div class="level" style="width: 75%;">
+                                  <div class="level" style="width: 70%;">
                                     <p>75%</p>
                                   </div>
-                                  <p>ระดับดี</p>
                                 </div>
                                 <div class="skills">
                                   <h5>jQuery</h5>
                                   <div class="level" style="width: 50%;">
                                     <p>50%</p>
                                   </div>
-                                  <p>ระดับพอใช้</p>
                                 </div>
                                 <div class="skills">
                                   <h5>MySQL</h5>
                                   <div class="level" style="width: 50%;">
                                     <p>50%</p>
                                   </div>
-                                  <p>ระดับพอใช้</p>
                                 </div>
                                 <p></p>
                               </div>
                             </div>
                             <div class="col-lg-6 align-self-center">
-                              <div class="right-image">
+                              <div class="right-image padding-image">
                                 <img src="images/experience-skills.png" alt="">
                               </div>
                             </div>
@@ -404,16 +401,16 @@
                               <div class="left-text">
                                 <h4>งานอดิเรก (Hobbies) </h4>
                                 <div class="ticks-list">
-                                    <span><i class="fa fa-file-code-o"></i> ออกแบบและเขียนเว็บไซต์</span>
-                                    <span><i class="fa fa-newspaper-o"></i> หาข้อมูลเทคนิคในการออกแบบ</span>
-                                    <span><i class="fa fa-desktop"></i> อ่านบทความข่าวเทคโนโลยีใหม่ๆ</span>
-                                  <span><i class="fa fa-file-image-o"></i> ถ่ายภาพตามสถานที่ต่างๆ</span>
+                                    <span><i class="fa fa-file-code-o" style="width: 22px"></i> ออกแบบและเขียนเว็บไซต์</span>
+                                    <span><i class="fa fa-newspaper-o" style="width: 22px"></i> หาข้อมูลเทคนิคในการออกแบบ</span>
+                                    <span><i class="fa fa-desktop" style="width: 22px"></i> อ่านบทความข่าวเทคโนโลยีใหม่ๆ</span>
+                                  <span><i class="fa fa-file-image-o" style="width: 22px"></i> ถ่ายภาพตามสถานที่ต่างๆ</span>
                                 </div>
-                                <p>ผมชอบติดตามข่าวเทคโนโลยีใหม่ๆ รวมทั้งบ่อยครั้งที่ติดปัญหาในการทำงานผมก็จะชอบหาคำตอบและแก้ปัญหานั้นจนสำเร็จ</p>
+                                <p>ชอบติดตามข่าวเทคโนโลยีใหม่ๆ รวมทั้งบางครั้งที่ติดปัญหาในการทำงาน ก็จะหาคำตอบและแก้ปัญหานั้นจนสำเร็จ</p>
                               </div>
                             </div>
                             <div class="col-lg-6 align-self-center">
-                              <div class="right-image">
+                              <div class="right-image padding-image">
                                 <img src="images/experience-hobbies.png" alt="">
                               </div>
                             </div>
@@ -453,8 +450,11 @@
       <div class="row">
         <div class="col-lg-6 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="portfolio-post">
-            <div class="thumb">
-              <a href="#"><img src="images/blog-post-01.jpg" alt=""></a>
+            <div class="thumb myImgBig" onclick="myImg('0')">
+              <img src="images/blog-post-01.jpg" class="image">
+              <div class="middle">
+                <div class="text">John Doe</div>
+              </div>
             </div>
             <div class="down-content">
               <span class="category">Portfolio Application</span>
@@ -471,11 +471,16 @@
             <div class="row">
               <div class="col-lg-12">
                 <div class="post-item">
-                  <div class="thumb">
-                    <a href="#"><img src="images/blog-post-02.jpg" alt=""  style="width: 230px"></a>
+                  <div class="thumb myImgSmall">
+                    <a href="#">
+                      <img src="images/blog-post-02.jpg" class="image" style="width: 210px">
+                    </a>
+                    <div class="middle">
+                      <div class="text">John Doe</div>
+                    </div>
                   </div>
                   <div class="right-content">
-                    <span class="category">Portfolio System</span>
+                    <span class="category" style="display: none;">Portfolio System</span>
                     <span class="date"></span>
                     <h4>บอร์ดคิวห้องยา</h4>
                     <p>เจ้าหน้าที่สามารถเเรียกคิวผู้ป่วยจากระบบหลัก โดยที่คิวที่ถูกเรียกจะแสดงบนบอร์ดและมีเสียงเรียก</p>
@@ -484,11 +489,16 @@
               </div>
               <div class="col-lg-12">
                 <div class="post-item">
-                  <div class="thumb">
-                    <a href="#"><img src="images/blog-post-03.jpg" alt=""  style="width: 230px"></a>
+                  <div class="thumb myImgSmall">
+                    <a href="#">
+                      <img src="images/blog-post-03.jpg" class="image" style="width: 210px">
+                    </a>
+                    <div class="middle">
+                      <div class="text">John Doe</div>
+                    </div>
                   </div>
                   <div class="right-content">
-                    <span class="category">Portfolio System</span>
+                    <span class="category" style="display: none;">Portfolio System</span>
                     <span class="date"></span>
                     <h4>ระบบลงทะเบียนผู้ป่วย</h4>
                     <p>ผู้ป่วยสามารถลงทะเบียนด้วยตนเองผ่านตู้ Kiosk แล้วรอรับบริการตามคลินิกที่ต้องการได้เลย</p>
@@ -497,11 +507,16 @@
               </div>
               <div class="col-lg-12">
                 <div class="post-item last-post-item">
-                  <div class="thumb">
-                    <a href="#"><img src="images/blog-post-04.jpg" alt=""  style="width: 230px"></a>
+                  <div class="thumb myImgSmall">
+                    <a href="#">
+                      <img src="images/blog-post-04.jpg" class="image" style="width: 210px">
+                    </a>
+                    <div class="middle">
+                      <div class="text">John Doe</div>
+                    </div>
                   </div>
                   <div class="right-content">
-                    <span class="category">Portfolio System</span>
+                    <span class="category" style="display: none;">Portfolio System</span>
                     <span class="date"></span>
                     <h4>เว็บไซต์บริษัท</h4>
                     <p>ผมได้มีโอกาสได้ออกแบบและพัฒนาเว็บไซต์บริษัทเมื่อตอนที่ผมเข้าทำงานใหม่ </p>
@@ -704,7 +719,7 @@
   <script src="js/custom.js"></script>
   <script src="js/parallax100.js"></script>
 	<script type="text/javascript">
-        $('.parallax100').parallax100();
+    $('.parallax100').parallax100();
 	</script>
 
 </body>
