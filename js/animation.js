@@ -192,3 +192,21 @@ wow = new WOW(
 );
 wow.init();
 
+
+
+
+
+/* 
+---------------------------------------------
+Slide Show
+--------------------------------------------- 
+*/
+
+function showImg(element) {
+  var captionText = document.getElementById("caption");
+  document.getElementById("imgShow").src = element;
+  document.getElementById("modalImg").style.display = "block";
+  console.log(myString)
+  captionText.innerHTML = this.alt;
+}
+
