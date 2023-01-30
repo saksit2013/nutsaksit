@@ -1574,21 +1574,28 @@ experience Style
 .skills{
   position: relative;
   width: 100%;
-  height: 40px;
+  margin-bottom: 15px;
+}
+
+.skills .box{
+  position: relative;
+  width: 100%;
+  height: 32px;
   background: -webkit-repeating-linear-gradient(#f0f0f0,#f7f7f7, #f0f0f0);
   border: 1px solid #ededed;
   border-radius: 50px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .skills .level{
   position: absolute;
   width: 100%;
-  height: 38px;
+  height: 30px;
   top: 0px;
   left: 1px;
-  background: -webkit-repeating-linear-gradient(#867fe2, #9891ee, #867fe2);
-  border: 2px solid #f0f0f0;
+  /*background: -webkit-repeating-linear-gradient(#867fe2, #9891ee, #867fe2);*/
+  background: -webkit-repeating-linear-gradient(#bfbbee, #b7b3eb, #bfbbee);
+  border: 1px solid #f0f0f0;
   border-radius: 50px;
   margin-bottom: 15px;
   z-index: 1;
@@ -1599,7 +1606,8 @@ experience Style
   width: 50%;
   top: 50%;
   left: 25px;
-  font-size: 17px;
+  font-size: 16px;
+  line-height: 16px;
   color: #ffffff;
   text-align: left;
   vertical-align: middle;
@@ -1633,6 +1641,16 @@ experience Style
   -ms-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
   z-index: 2;
+}
+
+.skills .text{
+  position: relative;
+  width: 100%;
+  top: 0px;
+  left: 25px;
+  font-size: 14px;
+  color: #666666;
+  padding-right: 30px;
 }
 
 /* 
