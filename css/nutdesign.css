@@ -1803,12 +1803,12 @@ portfolio
 
 .portfolio {
   position: relative;
-  padding-top: 130px;
+  padding-top: 180px;
 }
 
 .portfolio .section-heading {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .portfolio .section-heading .line-dec {
@@ -2299,7 +2299,7 @@ responsive
     margin-top: 45px;
   }
   .flourish .flourish-post {
-    background-image: url(../images/portfolio-flourish2.jpg);
+    background-image: url(../images/OT130Y0.jpg);
     padding-top: 380px;
     padding-bottom: 250px;
   }
